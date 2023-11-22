@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 """ FizzBuzz
+    Change of logic if (i % 3) == 0 and (i % 5) == 0:
 """
 import sys
 
@@ -34,6 +35,6 @@ if __name__ == '__main__':
         print("Usage: ./0-fizzbuzz.py <number>")
         print("Example: ./0-fizzbuzz.py 89")
         sys.exit(1)
-    else:
-        number = int(sys.argv[1])
-        fizzbuzz(number)
+
+    number = int(sys.argv[1])
+    fizzbuzz(number)
